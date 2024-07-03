@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
@@ -6,21 +7,70 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <EditText
-        android:id="@+id/input_ciphertext"
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Enter Ciphertext" />
+        android:orientation="horizontal">
 
-    <Button
-        android:id="@+id/button_analyze"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Analyze" />
+        <EditText
+            android:id="@+id/input_ciphertext"
+            android:layout_width="171dp"
+            android:layout_height="match_parent"
+            android:hint="Enter Ciphertext" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/button_reset"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Reset" />
+
+            <Button
+                android:id="@+id/button_remove_spaces"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Remove Spaces" />
+
+            <Button
+                android:id="@+id/button_count_single"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Count Single Character" />
+
+            <Button
+                android:id="@+id/button_count_diagrams"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Count Diagrams (2 Chars)" />
+
+            <Button
+                android:id="@+id/button_count_tiagrams"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Count Tiagrams (3 Chars)" />
+
+            <Button
+                android:id="@+id/button_decrypt_convert"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Decrypt/Convert" />
+        </LinearLayout>
+    </LinearLayout>
 
     <TextView
         android:id="@+id/text_output"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
         android:text="Frequencies will be displayed here" />
+
+    <EditText
+        android:id="@+id/input_substitution"
+        android:layout_width="match_parent"
+        android:layout_height="112dp"
+        android:hint="Enter Substitution Table" />
+
 </LinearLayout>
