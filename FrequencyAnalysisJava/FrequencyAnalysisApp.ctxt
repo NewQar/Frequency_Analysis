@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.target=FrequencyAnalysisApp
+comment1.params=
+comment1.target=FrequencyAnalysisApp()
+comment10.params=ciphertext\ substitutionTable
+comment10.target=java.lang.String\ decryptCiphertext(java.lang.String,\ java.lang.String)
+comment11.params=args
+comment11.target=void\ main(java.lang.String[])
+comment12.params=
+comment12.target=void\ run()
+comment2.params=e
+comment2.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment3.params=e
+comment3.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment4.params=e
+comment4.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment5.params=e
+comment5.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment6.params=e
+comment6.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment7.params=e
+comment7.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment8.params=ciphertext
+comment8.target=java.lang.String\ analyzeFrequency(java.lang.String)
+comment9.params=ciphertext\ n
+comment9.target=java.lang.String\ analyzeNgrams(java.lang.String,\ int)
+numComments=13
